@@ -2,46 +2,47 @@ PATH
   remote: .
   specs:
     google_calendar (0.6.4)
-      TimezoneParser (>= 0.3, < 1.1)
+      TimezoneParser (~> 0.3.0)
       json (>= 1.8.3)
       signet (~> 0.7)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    TimezoneParser (0.3.3)
+    TimezoneParser (0.3.2)
       insensitive_hash
       tzinfo
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     ansi (1.5.0)
     builder (3.2.3)
-    codeclimate-test-reporter (1.0.9)
+    codeclimate-test-reporter (1.0.8)
       simplecov (<= 0.13)
-    concurrent-ruby (1.1.4)
     docile (1.1.5)
-    dotenv (2.7.5)
-    faraday (0.15.4)
+    dotenv (2.5.0)
+    faraday (0.14.0)
       multipart-post (>= 1.2, < 3)
     insensitive_hash (0.3.3)
-    json (2.2.0)
+    json (2.1.0)
     jwt (2.1.0)
-    minitest (5.13.0)
-    minitest-reporters (1.4.2)
+    metaclass (0.0.4)
+    minitest (5.11.3)
+    minitest-reporters (1.3.5)
       ansi
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    mocha (1.10.2)
+    mocha (1.4.0)
+      metaclass (~> 0.0.1)
     multi_json (1.13.1)
     multipart-post (2.0.0)
-    public_suffix (3.0.3)
-    rake (13.0.1)
+    public_suffix (3.0.2)
+    rake (12.3.1)
     rb-fsevent (0.10.3)
-    rdoc (6.2.0)
-    ruby-progressbar (1.10.1)
+    rdoc (6.1.1)
+    ruby-progressbar (1.10.0)
     shoulda-context (1.2.2)
-    signet (0.11.0)
+    signet (0.8.1)
       addressable (~> 2.3)
       faraday (~> 0.9)
       jwt (>= 1.5, < 3.0)
@@ -51,10 +52,10 @@ GEM
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.2)
-    sqlite3 (1.3.13)
     terminal-notifier-guard (1.7.0)
-    tzinfo (2.0.0)
-      concurrent-ruby (~> 1.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
 
 PLATFORMS
   ruby
